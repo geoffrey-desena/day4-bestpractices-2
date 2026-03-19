@@ -29,6 +29,7 @@ Follow the instructions from the lecture notes.
 ## 4. Optimization with SciPy
 
 #### Fitting Datasets
+
 In the repository there's a file, `I_q_IPA_exp.npy`, with an experimental set of points giving the scattering strength of a sample as a function of the scattering vector. You also have, `I_q_IPA_model.npy`, a set of points produced by a theoretical model that also give the scattering strength as a function of the scattering vector. You would like to scale the points from the theoretical model to give the best possible fit to the experimental dataset. Use [`numpy.load()`](https://numpy.org/doc/stable/reference/generated/numpy.load.html) to load the arrays. For both arrays `[:,0]` correspond to the scattering vector and [:,1] corresponds to the scattering strength. A few useful SciPy functions might be [`scipy.optimize.minimize_scalar()`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.minimize_scalar.html#scipy.optimize.minimize_scalar) and [`scipy.interpolate.interp1d()`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.interp1d.html#scipy.interpolate.interp1d). Matplotlib might be helpful to visualize the result, e.g. with [`plot()`](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.plot.html) or [`scatter()`](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.scatter.html). 
 
 
