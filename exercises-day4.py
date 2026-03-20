@@ -34,14 +34,14 @@ test_simple_math.py ......                                               [100%]
 
 
 # b. Create a webpage using Sphinx
-# I'm going to wait until we go over this in class. I'm missing something
+# html file created: docs/_build/html/index.html
 
 # %% Exercise 3 - Plotting with matplotlib
 # a. Clicked through the notebook
 
 # b. Matplotlib
 
-# This is actually the place where I have found genAI most helpful.
+# This is actually where I have found genAI most helpful.
 # When I'm designing a plot, I don't want to get wrapped up in the syntax
 # of the code. I just want to visualize my ideal plot and then describe what I
 # see. ChatGPT has been fantastic for translating my description into a 
