@@ -39,7 +39,7 @@ def poly_first(x, a0, a1):
 def poly_second(x, a0, a1, a2):
     """Evaluate a second order polynomial.
     
-    Dependences:
+    Dependencies:
     poly_first(x, a0, a1)
     
     Arguments:
